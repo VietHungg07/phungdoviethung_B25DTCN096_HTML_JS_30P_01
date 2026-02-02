@@ -11,9 +11,11 @@ if(n < 0){
     console.log(` ${n} là số dương `);
 }
 if(n > 0){
-    for( let i = 1 ; i < n; i++)
+    for( let i = 1 ; i <= n; i++){
         console.log(` ${i}`);
+    }        
 }else if(n <= 0){
     console.log(` ${n} không phù hợp để tạo dãy số `);
 }
+
 
